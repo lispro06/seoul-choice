@@ -14,6 +14,8 @@
 
 }
 
+-(IBAction)fb:(id)sender;
+-(IBAction)cw:(id)sender;
 @property(retain,nonatomic) 	IBOutlet UIWebView *webView_facebook;
 
 @end

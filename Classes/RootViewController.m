@@ -123,7 +123,7 @@
                                                                        style:UIBarButtonItemStylePlain target:self action:@selector(apply:)];
     self.navigationItem.rightBarButtonItem = settingsButton;
     [settingsButton release];
-    self.navigationItem.title = @"주말일정";
+    self.navigationItem.title = @"선택주말일정";
     //self.title = @"Feeds";
     self.allEntries = [NSMutableArray array];
    [self addRows];

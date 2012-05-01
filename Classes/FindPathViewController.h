@@ -13,7 +13,7 @@
 #import "PlaceMark.h" 
 @class DisplayMap;
 
-@interface FindPathViewController : UIViewController <MKReverseGeocoderDelegate,CLLocationManagerDelegate>{
+@interface FindPathViewController : UIViewController <CLLocationManagerDelegate>{
 	//IBOutlet UIImageView *imageView_search;
 	CLLocationManager	*locationManager;
     IBOutlet MKMapView *mapView;

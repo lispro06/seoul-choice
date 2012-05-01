@@ -13,13 +13,14 @@
 @synthesize imageView_search; 
 @synthesize locationManager;
 @synthesize mapView;
+/*
 - (void)reverseGeocoder:(MKReverseGeocoder *)geocoder didFailWithError:(NSError *)error{
 }
 
 - (void)reverseGeocoder:(MKReverseGeocoder *)geocoder didFindPlacemark:(MKPlacemark *)placemark{
 	mPlacemark=placemark;
 	[mapView addAnnotation:placemark];
-}
+}*/
 #pragma mark -
 #pragma mark CLLocationManagerDelegate Methods
 - (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation{
